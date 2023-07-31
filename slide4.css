@@ -1,0 +1,22 @@
+.slide4{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+
+.TextListBuy{
+    height: 400pt;
+
+}
+.ListBuyUl{
+
+
+}
+.LestHeaderLI{
+    color:#FFFFFF;
+    font-size: 12pt;
+    font-family: 'Proxima Nova', sans-serif;
+}

@@ -1,0 +1,84 @@
+.slide3{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.massageRitmstyule{
+    display: flex;
+    width: 600pt;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.MassageStart{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 0pt 0pt 50pt 0pt;
+}
+
+.MessageAboutUsMain{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0pt 70pt 0pt 0pt;
+
+}
+
+.MessageTitle{
+    width: 350pt;
+    display: flex;
+    font-size: 24pt;
+    color:white;
+    justify-content: left;
+    padding-bottom: 18pt;
+}
+
+.MessageText{
+    width: 350pt;
+    display: flex;
+    font-size: 12pt;
+    color:white;
+}
+
+.MassageBotton{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+   
+}
+
+.MessageAboutUsBotton{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 350pt;
+    height: 200pt;
+    margin: 0pt 0pt 0pt 70pt;
+}
+
+.MessageTextBotton{
+    width: 350pt;
+    display: flex;
+    font-size: 12pt;
+    color:white;
+
+}
+
+.MessageTitleBotton{
+    width: 350pt;
+    display: flex;
+    font-size: 18pt;
+    color:white;
+    justify-content: left;
+    padding-bottom: 20pt;
+
+}
