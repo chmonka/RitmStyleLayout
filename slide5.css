@@ -1,0 +1,17 @@
+.slide5{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.PoolOne{
+    background-color: #018ABE;
+    Width:320pt;
+    Height:240pt;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}

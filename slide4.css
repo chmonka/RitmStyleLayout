@@ -7,16 +7,56 @@
 }
 
 
-.TextListBuy{
-    height: 400pt;
+.textListBuy{
+    height: 200pt;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 
 }
-.ListBuyUl{
-
-
-}
-.LestHeaderLI{
+.listBuyUl{
+    list-style-image: url(PHOTOS/Rectangle.png);
     color:#FFFFFF;
-    font-size: 12pt;
     font-family: 'Proxima Nova', sans-serif;
+    font-size: 12pt;
+}
+.listBuyLI{
+    margin: 20pt 0pt 0pt 0pt;
+    
+    
+}
+
+.listPriceUl{
+    list-style-type: none;
+    color:#FFFFFF;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 12pt;
+
+}
+.listPriceLI{
+    margin: 20pt 0pt 0pt 80pt;
+    
+    
+}
+
+.listBuy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.imgListBuy{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0pt 0pt 0pt 120pt;
+}
+
+.textSertificate{
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 12pt;
+    color:#FFFFFF;
+    padding-top: 20pt;
+
 }

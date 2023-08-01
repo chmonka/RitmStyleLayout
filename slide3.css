@@ -38,6 +38,7 @@
     color:white;
     justify-content: left;
     padding-bottom: 18pt;
+    font-family: 'Proxima Nova', sans-serif;
 }
 
 .MessageText{
@@ -45,6 +46,7 @@
     display: flex;
     font-size: 12pt;
     color:white;
+    font-family: 'Proxima Nova', sans-serif;
 }
 
 .MassageBotton{
@@ -63,6 +65,7 @@
     width: 350pt;
     height: 200pt;
     margin: 0pt 0pt 0pt 70pt;
+
 }
 
 .MessageTextBotton{
@@ -70,7 +73,7 @@
     display: flex;
     font-size: 12pt;
     color:white;
-
+font-family: 'Proxima Nova', sans-serif;
 }
 
 .MessageTitleBotton{
@@ -80,5 +83,5 @@
     color:white;
     justify-content: left;
     padding-bottom: 20pt;
-
+    font-family: 'Proxima Nova', sans-serif;
 }
