@@ -12,6 +12,13 @@
     Height:240pt;
     display: flex;
     flex-direction: column;
-
     justify-content: center;
+    
+    
+}
+
+.ulNevskiy{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
 }
