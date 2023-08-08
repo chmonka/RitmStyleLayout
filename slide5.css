@@ -32,6 +32,17 @@
     padding-bottom: 10pt;
 }
 
+.map{
+    padding-right: 100pt;
+}
+
+.typesOfPoolsAndMaps{
+    display: flex;
+    width: 1000pt;
+    flex-direction: row;
+ 
+}
+
 .ulZapich{
     list-style-type: none;
     display: flex;
