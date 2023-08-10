@@ -4,7 +4,7 @@
 }
 
 
-.divseons{
+.divSession{
     display: flex;
     flex-direction: row;
 }
@@ -26,7 +26,7 @@
     justify-content: space-between;
 }
 
-.mainPhotoSseons{
+.mainPhotoSession{
     display: flex;
     gap: 26px;
     padding-right:20pt;
@@ -57,7 +57,7 @@
     margin-left: 30pt;
 }
 
-.divTitleSeons{
+.divTitleSession{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -65,11 +65,11 @@
     padding-top: 65pt;
 }
 
-.titleSeons{
+.titleSession{
     color: white;
 }
 
-.mainPhotoSseonsTitle {
+.mainPhotoSessionTitle {
     color:white;
     position: absolute;
     bottom: 20pt;

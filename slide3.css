@@ -5,7 +5,7 @@
     flex-direction: column;
 }
 
-.massageRitmstyule{
+.massageRitmStyle{
     display: flex;
     width: 600pt;
     flex-direction: column;
@@ -14,7 +14,7 @@
    
 }
 
-.MassageStart{
+.massageStart{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -22,7 +22,7 @@
     padding: 0pt 0pt 50pt 0pt;
 }
 
-.MessageAboutUsMain{
+.messageAboutUsMain{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -31,7 +31,7 @@
 
 }
 
-.MessageTitle{
+.messageTitle{
     width: 350pt;
     display: flex;
     font-size: 24pt;
@@ -41,7 +41,7 @@
     font-family: 'Proxima Nova', sans-serif;
 }
 
-.MessageText{
+.messageText{
     width: 350pt;
     display: flex;
     font-size: 12pt;
@@ -49,7 +49,7 @@
     font-family: 'Proxima Nova', sans-serif;
 }
 
-.MassageBotton{
+.massageBotton{
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
@@ -57,7 +57,7 @@
    
 }
 
-.MessageAboutUsBotton{
+.messageAboutUsBotton{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -68,7 +68,7 @@
 
 }
 
-.MessageTextBotton{
+.messageTextBotton{
     width: 350pt;
     display: flex;
     font-size: 12pt;
@@ -76,7 +76,7 @@
 font-family: 'Proxima Nova', sans-serif;
 }
 
-.MessageTitleBotton{
+.messageTitleBotton{
     width: 350pt;
     display: flex;
     font-size: 18pt;

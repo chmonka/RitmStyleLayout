@@ -11,21 +11,28 @@
     flex-direction: column;
 }
 
-.PoolOne{
+.poolOne{
     padding: 40pt;
     background-color: #018ABE;
     Width:320pt;
     Height:240pt;
     border-radius: 10pt;
 }
-.ulNevskiy{
+.streetList{
     list-style-type: none;
     display: flex;
     flex-direction: row;
     padding-bottom: 10pt;
 }
 
-.ulMetro{
+.metroList{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10pt;
+}
+
+.entryList{
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -33,31 +40,26 @@
 }
 
 .map{
-    padding-right: 100pt;
+    padding-right: 30pt;
 }
 
 .typesOfPoolsAndMaps{
     display: flex;
 }
 
-.ulZapich{
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 10pt;
-}
 
-.ulNevskiyLI{
+
+.streetListLI{
     padding-left: 15pt;
    color: white;
 }
 
-.ulMetroLi{
+.metroListLi{
     padding-left: 15pt;
     color: white;
 }
 
-.ulZapichLi{
+.entryListLi{
     padding-left: 15pt;
     color: white;
 }

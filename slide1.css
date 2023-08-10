@@ -26,7 +26,7 @@
     font-style: normal;
 }
 
-.titleritmstyle{
+.titleRitmStyle{
     text-align:  center;
     padding-top: 30pt;
     padding-bottom: 60pt;
@@ -37,7 +37,7 @@
     font-style: normal;
 }
 
-.whiteleft{
+.whiteFigureLeft{
     width: 20pt;
     height: 10pt;
     background: #FFFFFF;
@@ -45,7 +45,7 @@
     margin-right:50pt ;
 }
 
-.whiteright{
+.whiteFigureRight{
     width: 20pt;
     height: 10pt;
     background: #FFFFFF;
@@ -54,7 +54,7 @@
     margin-left:50pt;
 }
 
-.divtitlelive{
+.divTitleLive{
     display: flex;
     flex-direction: row;
     align-items: center;
