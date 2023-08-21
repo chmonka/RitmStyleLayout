@@ -1,0 +1,38 @@
+.sliderreleative{
+  position: relative;
+  height: 100%;
+}
+
+.slider-out{
+
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+
+.swiper {
+  width: 1000pt;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  display: flex;
+  border-radius: 10pt;
+  justify-content: center;
+  padding: 0pt 30pt 0pt 30pt ;
+  flex-direction: column;
+  background: var(--accent, #018ABE);
+  background-position: center;
+  background-size: cover;
+  width: 520pt;
+  height: 350pt;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
