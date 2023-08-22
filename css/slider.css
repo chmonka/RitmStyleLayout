@@ -20,6 +20,8 @@
 }
 
 .swiper-slide {
+  color: white;
+  border: none;
   display: flex;
   border-radius: 10pt;
   justify-content: center;
@@ -30,6 +32,10 @@
   background-size: cover;
   width: 520pt;
   height: 350pt;
+}
+
+.sliderTitle{
+  padding: 0pt 0pt 30pt 0pt;
 }
 
 .swiper-slide img {
