@@ -12,11 +12,18 @@
   padding: 0;
 }
 
+.sliderSlide{
+      display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1000pt;
+}
+
 
 .swiper {
-  width: 1000pt;
-  padding-top: 50px;
-  padding-bottom: 50px;
+
+  padding-bottom: 50pt;
 }
 
 .swiper-slide {
@@ -30,12 +37,13 @@
   background: var(--accent, #018ABE);
   background-position: center;
   background-size: cover;
-  width: 520pt;
-  height: 350pt;
+  width: 500pt;
+  height: 280pt;
 }
 
 .sliderTitle{
-  padding: 0pt 0pt 30pt 0pt;
+  font-size: 14pt;
+  padding: 0pt 0pt 20pt 0pt;
 }
 
 .swiper-slide img {
