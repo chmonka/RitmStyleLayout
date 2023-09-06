@@ -8,7 +8,7 @@
 
 
 .welcome > .container {
-    background-image: url(css/photos/slide1.png);
+    background-image: url(slide1.png);
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
