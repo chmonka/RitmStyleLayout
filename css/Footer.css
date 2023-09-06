@@ -2,6 +2,12 @@
     margin: 80pt 0pt 20pt 0pt;
 }
 
+.container {
+    margin: 0 auto;
+    max-width: 1000pt;
+    width: 100%;
+  }git
+
 .footer > .conteiner {
     display: flex;
     align-items: center;

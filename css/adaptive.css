@@ -1,0 +1,17 @@
+@media (max-width:1200pt){
+    .menuItems{
+        width:420pt;   
+    }
+    .fotoAmblema{
+        width: 20pt;
+    }
+    .container{
+        max-width: 720pt;
+        width: 100%;
+    }
+    .buttonrecord{
+        width: 80pt;
+        height: 25pt;
+        font-size: 8pt;
+    }
+}
