@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+
+*{
+    margin: 0pt;
+    padding: 0pt;
+    box-sizing: border-box;
+}
+
+
+.welcome > .container {
+    background-image: url(css/photos/slide1.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column ;
+    background-size: 100% 100%;
+    padding-top: 30pt;
+    width: 1000pt;
+    height: 450pt;
+
+  }
+
+.titleLife{
+    color: white;
+    font-size: 20pt;
+    font-family: 'El Messiri', sans-serif;
+    font-style: normal;
+}
+
+.titleRitmStyle{
+    text-align:  center;
+    padding-top: 30pt;
+    padding-bottom: 60pt;
+    font-size: 46pt;
+
+    color: white;
+    font-family: 'El Messiri', sans-serif;
+    font-style: normal;
+}
+
+.whiteFigureLeft{
+    width: 20pt;
+    height: 10pt;
+    background: #FFFFFF;
+    border-radius: 0px 50px;
+    margin-right:50pt ;
+}
+
+.whiteFigureRight{
+    width: 20pt;
+    height: 10pt;
+    background: #FFFFFF;
+    border-radius: 0px 50px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    margin-left:50pt;
+}
+
+.divTitleLive{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

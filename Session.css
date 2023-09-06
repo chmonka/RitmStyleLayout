@@ -1,0 +1,97 @@
+.divSession{
+    display: flex;
+    flex-direction: row;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+.topPhotos{
+    display: flex;
+    gap: 12pt;
+}
+
+.bottomPhotos{
+    display: flex;
+    gap: 12pt;
+}
+
+.secondaryPhotosSeons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mainPhotoSession{
+    display: flex;
+    gap: 12pt;
+    padding-right:15pt;
+    position: relative; 
+}
+
+.decorationTitleLeft{
+    background: #018ABE;
+    border-radius: 0pt 50pt;
+    width: 28pt;
+    height: 14pt;
+    margin-right: 30pt;
+}
+
+.decorationTitleRight{
+    width: 28pt;
+    height: 14pt;
+    background: #018ABE;
+    border-radius: 0pt 50pt;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    margin-left: 30pt;
+}
+
+.divTitleSession{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 65pt;
+    padding-top: 65pt;
+}
+
+.titleSession{
+    color: white;
+}
+
+.mainPhotoSessionTitle {
+    color:white;
+    position: absolute;
+    bottom: 30pt;
+    left:36pt;
+    font-size: 17pt;
+}
+
+.Session > .container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.topPhotos1, .bottomPhotos1,.topPhotos2,.bottomPhotos2{
+
+    position: relative; 
+}
+
+.topPhotosText1,.topPhotosText2{
+    color: white;
+    position: absolute;
+    bottom: 30pt;
+    left:36pt;
+    font-size: 17pt;
+    font-family: 'El Messiri', sans-serif;
+    font-style: normal;
+}
+
+.bottomPhotosText2,.bottomPhotosText2{
+    color: white;
+    position: absolute;
+    bottom: 30pt;
+    left:36pt;
+    font-size: 17pt;
+    font-family: 'El Messiri', sans-serif;
+    font-style: normal;
+}

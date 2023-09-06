@@ -18,25 +18,9 @@ header{
 }
 
 .ListHeader{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style-type:none;
-    width: 500pt;
+ 
 }
 
 .LestHeaderLI{
-    color:#FFFFFF;
-    font-size: 12pt;
-    font-family: 'Proxima Nova', sans-serif;
-}
-
-.buttonrecord{
-    font-family: 'Proxima Nova', sans-serif;
-    background: #018ABE;
-    border-radius: 3pt;
-    width: 155px;
-    height: 36px;
-    color: white;
-    border: none;
+ 
 }

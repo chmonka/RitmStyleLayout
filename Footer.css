@@ -1,0 +1,22 @@
+.footer {
+    margin: 80pt 0pt 20pt 0pt;
+}
+
+.footer > .conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.FooterText{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000pt;
+    margin: 80pt 0pt 20pt 0pt;
+}
+
+.textFooter{
+    color: white;
+}

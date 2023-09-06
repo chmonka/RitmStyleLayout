@@ -1,0 +1,60 @@
+.Payment > .conteiner{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textListBuy{
+    height: 200pt;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.listBuyUl{
+    list-style-image: url(PHOTOS/Rectangle.png);
+    color:#FFFFFF;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 12pt;
+}
+.listBuyLI{
+    margin: 20pt 0pt 0pt 0pt;
+    
+    
+}
+
+.listPriceUl{
+    list-style-type: none;
+    color:#FFFFFF;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 12pt;
+
+}
+.listPriceLI{
+    margin: 20pt 0pt 0pt 80pt;
+    
+    
+}
+
+.listBuy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.imgListBuy{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0pt 0pt 0pt 120pt;
+}
+
+.textSertificate{
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 12pt;
+    color:#FFFFFF;
+    padding-top: 20pt;
+
+}
