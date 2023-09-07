@@ -1,17 +1,43 @@
-@media (max-width:1200pt){
+@media (max-width:1280px){
+   
+    
+}
+
+
+@media (max-width:1024px){
     .menuItems{
         width:420pt;   
     }
     .fotoAmblema{
         width: 20pt;
-    }
-    .container{
-        max-width: 720pt;
-        width: 100%;
-    }
+    } 
     .buttonrecord{
         width: 80pt;
         height: 25pt;
         font-size: 8pt;
     }
+
+    .footer {
+        padding: 0pt 20pt 0pt 20pt;
+    }
+    .menuItem{
+        font-size: 10pt;
+        justify-content: space-between;
+    }
+}
+@media (max-width:768px){
+    .menuItems{
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        flex-flow: row wrap;
+        height: 50pt;
+    }
+
+}
+@media (max-width:640px){
+    
+}
+@media (max-width:475px){
+    
 }
