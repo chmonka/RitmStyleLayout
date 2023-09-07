@@ -8,18 +8,20 @@
 
 
 .welcome > .container {
-    background-image: url(slide1.png);
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction:column ;
     background-size: 100% 100%;
     padding-top: 30pt;
     width: 1000pt;
     height: 450pt;
+    align-items: center;
+    justify-content: center;
+    background-image: url(slide1.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction:column ;
 
-  }
+}
+
+
 
 .titleLife{
     color: white;

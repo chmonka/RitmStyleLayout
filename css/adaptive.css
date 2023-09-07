@@ -1,5 +1,8 @@
 @media (max-width:1280px){
-   
+    .welcome > .container{
+        
+      
+    }
     
 }
 
@@ -16,7 +19,6 @@
         height: 25pt;
         font-size: 8pt;
     }
-
     .footer {
         padding: 0pt 20pt 0pt 20pt;
     }
@@ -24,20 +26,39 @@
         font-size: 10pt;
         justify-content: space-between;
     }
+    .welcome{
+        background-size:contain;
+        }
+    
+   
+
+
 }
 @media (max-width:768px){
     .menuItems{
-        display: flex;
-        align-items: center;
-        justify-self: center;
-        flex-flow: row wrap;
-        height: 50pt;
+        width: 340pt;
     }
 
 }
 @media (max-width:640px){
-    
+    .menuItems{
+        width: 265pt;
+        display: flex;
+    }
+    .buttonrecord{
+        width: 70pt;
+        height: 25pt;
+        font-size: 7pt;
+    }
 }
-@media (max-width:475px){
-    
+
+@media (max-width:520px){
+    .menuItems{
+        width:150pt;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content:space-evenly
+    }
+
+
 }
