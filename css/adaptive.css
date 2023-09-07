@@ -1,9 +1,9 @@
 @media (max-width:1280px){
     .welcome > .container{
+       height: 400pt;
         
-      
     }
-    
+
 }
 
 
@@ -26,18 +26,25 @@
         font-size: 10pt;
         justify-content: space-between;
     }
-    .welcome{
-        background-size:contain;
-        }
-    
-   
+    .welcome > .container{
+        height: 300pt;
+     }
 
 
-}
 @media (max-width:768px){
     .menuItems{
         width: 340pt;
     }
+    .welcome > .container{
+        height: 300pt;
+         
+    }
+
+
+    .textFooter{
+        font-size: 8pt;
+     }
+}
 
 }
 @media (max-width:640px){
@@ -50,6 +57,31 @@
         height: 25pt;
         font-size: 7pt;
     }
+    .welcome > .container{
+        height: 200pt; 
+    }
+    .titleLife{
+        font-size: 20pt;
+    }
+    .titleRitmStyle{
+        font-size: 15pt;
+    }
+    .divTitleLive{
+        margin-top:40pt ;
+    }
+    .titleLife{
+        font-size: 10pt;
+    }
+    .whiteFigureLeft{
+        margin-right:20pt;
+        width: 10pt;
+        height: 5pt;
+    }
+    .whiteFigureRight{
+        margin-left:20pt;
+        width: 10pt;
+        height: 5pt;
+    }
 }
 
 @media (max-width:520px){
@@ -59,6 +91,7 @@
         flex-wrap:wrap;
         justify-content:space-evenly
     }
-
-
+    .welcome > .container{
+        height: 150pt; 
+    }
 }
