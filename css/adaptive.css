@@ -1,9 +1,15 @@
 @media (max-width:1280px){
     .welcome > .container{
        height: 400pt;
-        
     }
 
+    .photoSessionMain{
+       height: 320pt;
+    }
+    .photosSession{
+        height: 150pt;
+    }
+    
 }
 
 
@@ -28,7 +34,8 @@
     }
     .welcome > .container{
         height: 300pt;
-     }
+    }
+}
 
 
 @media (max-width:768px){
@@ -46,7 +53,6 @@
      }
 }
 
-}
 @media (max-width:640px){
     .menuItems{
         width: 265pt;
