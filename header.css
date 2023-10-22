@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Proxima Nova", sans-serif;
     list-style: none;
+    text-decoration: none;
 }
 
 li {
@@ -20,7 +21,37 @@ body {
     width: 100%;
 }
 
+header>.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50pt;
+    align-items: center;
+    margin-top:20pt
+}
 
-header > .container{
-    
+.navigation {
+    max-width: 500pt;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul a {
+    color: #FFFFFF;
+}
+
+.container button{
+    max-width: 115pt;
+    width: 100%;
+    max-height: 27pt;
+    height: 100%;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 3pt;
+    background: var(--accent, #018ABE);
 }
